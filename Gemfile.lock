@@ -97,8 +97,6 @@ GEM
     parallel (1.10.0)
     public_suffix (2.0.5)
     rack (2.0.1)
-    rack-contrib (1.2.0)
-      rack (>= 0.9.1)
     rack-livereload (0.3.16)
       rack
     rb-fsevent (0.9.8)
@@ -111,7 +109,7 @@ GEM
     tilt (2.0.6)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    uglifier (3.1.5)
+    uglifier (3.1.6)
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS
@@ -123,7 +121,6 @@ DEPENDENCIES
   middleman-autoprefixer
   middleman-livereload (~> 3.4)
   neat
-  rack-contrib
 
 BUNDLED WITH
    1.14.3

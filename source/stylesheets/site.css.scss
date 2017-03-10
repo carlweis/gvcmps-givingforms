@@ -1,0 +1,18 @@
+@import "normalize";
+
+@import "bourbon/bourbon";
+@import "neat";
+@import "base/base";
+
+@import "patterns/container";
+@import "components/app-header";
+@import "components/make-a-gift-header";
+
+
+html, body {
+  background: #f7f7f7;
+}
+
+iframe {
+  background: #f7f7f7;
+}

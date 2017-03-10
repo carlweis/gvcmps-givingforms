@@ -1,0 +1,39 @@
+.app-header {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  padding: $small-spacing;
+  border-bottom: solid 1px $light-gray;
+}
+
+.app-logo {
+  $logo-size: 20rem;
+   @include hide-text;
+   @include size($logo-size, 4rem);
+   background-image: image-url("logo.png");
+   background-size: $logo-size;
+   background-repeat: no-repeat;
+   margin: 0;
+
+   @media (max-width: $medium-screen) {
+     margin: 0 auto;
+   }
+ }
+
+ .app-header__mobile-menu {
+   margin-left: auto;
+ }
+
+ .navigation {
+   display: flex;
+   margin-right: 0;
+   a {
+     display: inline-block;
+     padding: $base-spacing;
+   }
+
+   @media (max-width: $medium-screen) {
+    display: none;
+   }
+ }
+
